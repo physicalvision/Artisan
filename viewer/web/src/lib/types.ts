@@ -1,0 +1,54 @@
+export type RecordAgentMeta = {
+  agent: string;
+  provider: string | null;
+  model: string | null;
+  turns: number;
+  input_tokens: number;
+  output_tokens: number;
+  cached_tokens: number;
+  cost_usd: number | null;
+  active_seconds: number | null;
+};
+
+export type RecordSummary = {
+  record_id: string;
+  title: string;
+  prompt_preview: string;
+  rating: number | null;
+  secondary_rating: number | null;
+  effective_rating: number | null;
+  author: string | null;
+  rated_by: string | null;
+  secondary_rated_by: string | null;
+  created_at: string | null;
+  updated_at: string | null;
+  viewer_asset_updated_at: string | null;
+  sdk_package: string | null;
+  provider: string | null;
+  model_id: string | null;
+  has_traces: boolean;
+  thinking_level: string | null;
+  turn_count: number | null;
+  input_tokens: number | null;
+  output_tokens: number | null;
+  total_cost_usd: number | null;
+  run_kind: string | null;
+  agents: RecordAgentMeta[];
+  total_active_seconds: number | null;
+  elapsed_seconds: number | null;
+  category_slug: string | null;
+  run_id: string | null;
+  run_status: string | null;
+  run_message: string | null;
+  active_revision_id: string | null;
+  origin_record_id: string | null;
+  parent_record_id: string | null;
+  revision_count: number;
+  has_history: boolean;
+  collections: string[];
+  materialization_status: string | null;
+  has_compile_report: boolean;
+  has_provenance: boolean;
+  has_cost: boolean;
+};
+

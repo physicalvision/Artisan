@@ -1,0 +1,233 @@
+[project]
+name = "artisan-assets"
+version = "0.1.0"
+description = "Blueprint-driven articulated asset generation with independent physical and visual review."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { file = "LICENSE" }
+authors = [{ name = "Artisan contributors" }]
+dependencies = [
+    "absl-py==2.4.0",
+    "aiofiles==25.1.0",
+    "aiohappyeyeballs==2.6.1",
+    "aiohttp==3.13.5",
+    "aiosignal==1.4.0",
+    "annotated-doc==0.0.4",
+    "annotated-types==0.7.0",
+    "anthropic==0.101.0",
+    "anyio==4.13.0",
+    "attrs==26.1.0",
+    "bm25s==0.3.8",
+    "cadquery==2.7.0",
+    "cadquery-ocp==7.8.1.1.post1",
+    "casadi==3.7.2",
+    "certifi==2026.4.22",
+    "cffi==2.0.0",
+    "charset-normalizer==3.4.7",
+    "click==8.3.3",
+    "coacd==1.0.11",
+    "contourpy==1.3.3",
+    "cryptography==48.0.0",
+    "cycler==0.12.1",
+    "cython==3.2.4",
+    "distro==1.9.0",
+    "docstring-parser==0.18.0",
+    "etils==1.14.0",
+    "ezdxf==1.4.3",
+    "fast-simplification==0.1.13",
+    "fastapi==0.136.1",
+    "fonttools==4.62.1",
+    "frozenlist==1.8.0",
+    "fsspec==2026.4.0",
+    "glfw==2.10.0",
+    "google-auth==2.50.0",
+    "google-genai==1.75.0",
+    "h11==0.16.0",
+    "httpcore==1.0.9",
+    "httpx==0.28.1",
+    "idna==3.13",
+    "imageio==2.37.3",
+    "imageio-ffmpeg==0.6.0",
+    "jiter==0.14.0",
+    "jsonschema==4.26.0",
+    "jsonschema-specifications==2025.9.1",
+    "kiwisolver==1.5.0",
+    "manifold3d==3.4.1",
+    "markdown-it-py==4.0.0",
+    "matplotlib==3.10.9",
+    "mdurl==0.1.2",
+    "more-itertools==11.0.2",
+    "msgpack==1.1.2",
+    "mujoco==3.9.0",
+    "multidict==6.7.1",
+    "multimethod==1.12",
+    "networkx==3.6.1",
+    "nlopt==2.10.0",
+    "numpy==2.4.4",
+    "openai==2.34.0",
+    "packaging==26.2",
+    "path==17.1.1",
+    "pillow==12.2.0",
+    "propcache==0.4.1",
+    "pyasn1==0.6.3",
+    "pyasn1-modules==0.4.2",
+    "pycparser==3.0",
+    "pydantic==2.13.3",
+    "pydantic-core==2.46.3",
+    "pygments==2.20.0",
+    "pyopengl==3.1.10",
+    "pyparsing==3.3.2",
+    "python-dateutil==2.9.0.post0",
+    "python-dotenv==1.2.2",
+    "python-fcl==0.7.0.11",
+    "pyyaml==6.0.3",
+    "referencing==0.37.0",
+    "requests==2.33.1",
+    "rich==15.0.0",
+    "rpds-py==2026.6.3",
+    "rtree==1.4.1",
+    "runtype==0.5.3",
+    "scipy==1.17.1",
+    "six==1.17.0",
+    "sniffio==1.3.1",
+    "starlette==1.0.0",
+    "tenacity==9.1.4",
+    "tqdm==4.67.3",
+    "trame==3.12.0",
+    "trame-client==3.12.1",
+    "trame-common==1.1.3",
+    "trame-components==2.5.0",
+    "trame-server==3.11.0",
+    "trame-vtk==2.11.8",
+    "trame-vuetify==3.2.2",
+    "trimesh==4.12.2",
+    "typing-extensions==4.15.0",
+    "typing-inspection==0.4.2",
+    "urllib3==2.6.3",
+    "uvicorn==0.46.0",
+    "vtk==9.3.1",
+    "websockets==16.0",
+    "wslink==2.5.6",
+    "yarl==1.23.0",
+    "zipp==4.1.0",
+    "lpips==0.1.4",
+    "open-clip-torch==3.1.0",
+    "scikit-image==0.26.0",
+    "torch==2.7.1",
+    "torchvision==0.22.1",
+]
+
+[project.optional-dependencies]
+usd = ["usd-core==26.5"]
+
+[project.scripts]
+artisan = "artisan.cli:main"
+
+[build-system]
+requires = ["hatchling==1.32.0"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+environments = ['sys_platform == "linux" and python_version == "3.12"']
+constraint-dependencies = [
+    "packaging==26.2",
+    "pygments==2.20.0",
+    "ruff==0.15.12",
+    "filelock==3.25.2",
+    "ftfy==6.3.1",
+    "hf-xet==1.4.2",
+    "huggingface-hub==0.36.2",
+    "jinja2==3.1.6",
+    "lazy-loader==0.5",
+    "markupsafe==3.0.3",
+    "mpmath==1.3.0",
+    "regex==2026.2.28",
+    "safetensors==0.7.0",
+    "setuptools==82.0.1",
+    "sympy==1.14.0",
+    "tifffile==2026.3.3",
+    "timm==1.0.25",
+    "triton==3.3.1",
+    "wcwidth==0.6.0",
+]
+
+[tool.hatch.build]
+ignore-vcs = true
+exclude = [
+    "**/__pycache__/**",
+    "**/*.py[cod]",
+    "**/.pytest_cache/**",
+    "**/.ruff_cache/**",
+    "**/node_modules/**",
+    "**/*.tsbuildinfo",
+    "viewer/web/dist/**",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["artisan", "pipeline", "sdk", "storage", "viewer"]
+exclude = [
+    "viewer/web/**",
+    "**/__pycache__/**",
+    "**/*.py[cod]",
+    "**/.pytest_cache/**",
+    "**/.ruff_cache/**",
+    "**/node_modules/**",
+    "**/*.tsbuildinfo",
+]
+
+[tool.hatch.build.targets.wheel.force-include]
+"viewer/web/dist" = "viewer/web/dist"
+"THIRD_PARTY.md" = "artisan/THIRD_PARTY.md"
+
+[tool.hatch.build.targets.sdist]
+only-include = [
+    "assets",
+    "benchmark/README.md",
+    "benchmark/Evaluation",
+    "benchmark/run.py",
+    "artisan",
+    "pipeline",
+    "sdk",
+    "storage",
+    "viewer",
+    ".env.example",
+    ".gitignore",
+    ".python-version",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "THIRD_PARTY.md",
+    "artisan.example.toml",
+    "constraints.txt",
+    "pyproject.toml",
+    "uv.lock",
+    "install.sh",
+    "run.sh",
+]
+
+[dependency-groups]
+dev = ["ruff==0.15.12"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"sdk/v0/*.py" = ["F401", "F403"]
+"sdk/_core/v0/mesh.py" = ["F401"]
+"sdk/_core/v0/testing.py" = ["F401"]
+"sdk/_core/v0/_mesh/*.py" = ["F401", "F403", "F405", "F821"]
+"sdk/_core/v0/_testing/*.py" = ["F401", "F403", "F405", "F821"]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

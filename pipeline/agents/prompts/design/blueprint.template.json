@@ -1,0 +1,58 @@
+{
+  "blueprint_meta": {
+    "schema_version": "1.0",
+    "blueprint_version": "v1"
+  },
+  "target_dimensions": { "x": 0.24, "y": 0.16, "z": 0.1 },
+  "parts": [
+    {
+      "name": "box_body",
+      "role": "carcass",
+      "parent": null,
+      "geometry_hint": "hollow thin-wall box shell, ~6mm wall, open at the top",
+      "dimensions": { "x": 0.24, "y": 0.16, "z": 0.07 },
+      "material": "walnut wood",
+      "material_class": "wood"
+    },
+    {
+      "name": "box_lid",
+      "role": "lid",
+      "parent": "box_body",
+      "geometry_hint": "thin rectangular panel matching the body footprint; small recessed thumb notch folded into the front edge",
+      "dimensions": { "x": 0.24, "y": 0.16, "z": 0.03 },
+      "material": "walnut wood",
+      "material_class": "wood"
+    }
+  ],
+  "joints": [
+    {
+      "name": "lid_hinge",
+      "type": "revolute",
+      "parent": "box_body",
+      "child": "box_lid",
+      "axis": [1.0, 0.0, 0.0],
+      "origin_hint": "along the rear top edge of the body (the hinge line), not the lid center",
+      "travel": 1.92,
+      "rest": "at_min",
+      "opens": "free edge lifts upward/away from the body (positive q opens the lid)",
+      "dynamics_intent": {
+        "effort": "firm",
+        "motion": "damped",
+        "hold": "holds_anywhere",
+        "feel": "the opened lid should remain where the user leaves it"
+      }
+    }
+  ],
+  "couplings": [],
+  "acceptance": [
+    "the lid opens upward to at least 90 degrees so the interior is accessible",
+    "the lid closes flush onto the body without intersecting it",
+    "the lid stays attached to the body at the rear hinge across its full range of motion"
+  ],
+  "tasks": [
+    "Open the lid."
+  ],
+  "version_history": [
+    { "version": "v1", "stage": "intake", "changes": ["initial blueprint"] }
+  ]
+}

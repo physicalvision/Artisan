@@ -1,0 +1,115 @@
+{
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "brushed_metal/color.png",
+      "sha256": "216b2e750c79040f9834f906463dc9b7405300b7e701a59fd10b227a7075bb2b",
+      "bytes": 674265
+    },
+    {
+      "path": "brushed_metal/metalness.png",
+      "sha256": "9f3d6c655556225764d94fc504c02300199eff9f6b071aabfadb22fa95231a69",
+      "bytes": 798
+    },
+    {
+      "path": "brushed_metal/normal.png",
+      "sha256": "635697561ea485f3bb28ea216dd1bb9a8682b563e64a159f9937ecc6de04711b",
+      "bytes": 4015982
+    },
+    {
+      "path": "brushed_metal/roughness.png",
+      "sha256": "b76b06f59860b436ed56e43c2dfe5d02f065561834b4062262a374dffae67ff1",
+      "bytes": 413781
+    },
+    {
+      "path": "carpet/color.png",
+      "sha256": "00dc23675191a953b958fb98f37dcb9322b9ff4ca6e505ba66b5606e781a91aa",
+      "bytes": 2778941
+    },
+    {
+      "path": "carpet/normal.png",
+      "sha256": "97d69c374ea57582968e82620f3c25003f8d4d8b0bd06b03606a524df8941a82",
+      "bytes": 6144175
+    },
+    {
+      "path": "carpet/roughness.png",
+      "sha256": "a91394e3ab8a31a68e3794057b4e7b5f5b4560646676b915fde0dce1f2af959a",
+      "bytes": 574693
+    },
+    {
+      "path": "concrete/color.png",
+      "sha256": "dffbbd0fd7249e938a30b650675262034fe0face516b0d036e9c34cae5a99190",
+      "bytes": 288279
+    },
+    {
+      "path": "concrete/normal.png",
+      "sha256": "7378313b5e38d138a2048d0a300194444ba7b205b062751a93a91bde8dfbccf9",
+      "bytes": 2715117
+    },
+    {
+      "path": "concrete/roughness.png",
+      "sha256": "b2f8b937d4c9d1d305fc30b915b28712d166939bba1c3823ad39767dd22e1f07",
+      "bytes": 206202
+    },
+    {
+      "path": "fabric/color.png",
+      "sha256": "43d620f8fba02557f16e7e84e3672d3b7f46b75f11eea12ee175be186fdcfbb0",
+      "bytes": 1849806
+    },
+    {
+      "path": "fabric/normal.png",
+      "sha256": "499d241ef5121fa20831cb76a4eaeaeefb38c30e00c7a4babcf9e373d7e58bb8",
+      "bytes": 5810562
+    },
+    {
+      "path": "fabric/roughness.png",
+      "sha256": "13fd438dbdfdf9bf9537531cd47229bcac4f3ccdf5f266eb939adb72870b4a8f",
+      "bytes": 543071
+    },
+    {
+      "path": "marble/color.png",
+      "sha256": "c3f7518a964457a43278fdfaa1ac69d639a41512b05ee022781b319d5d1ca83c",
+      "bytes": 1842551
+    },
+    {
+      "path": "marble/normal.png",
+      "sha256": "ca8c755622099c2ddb1afa9533f8fc08eebd461945b08f36ef88c978b68db676",
+      "bytes": 3051613
+    },
+    {
+      "path": "marble/roughness.png",
+      "sha256": "8059ae16cde9aa28371e152b94afb0871362a2b3f5e2d1434f11512701a5b898",
+      "bytes": 325102
+    },
+    {
+      "path": "walnut_wood/color.png",
+      "sha256": "61b6215761fad0b9e4ce32ff1da8823261d1b717386be60649b84eac80eb14b7",
+      "bytes": 1787878
+    },
+    {
+      "path": "walnut_wood/normal.png",
+      "sha256": "407a221229c065536cc641344b6fafc7a4c94e6b2712425f4586669a56b0f7d9",
+      "bytes": 4743380
+    },
+    {
+      "path": "walnut_wood/roughness.png",
+      "sha256": "f3a7ce55ab4c3001b2d422107f43f0670c1735abac28a31c0358e4c7b43cc54e",
+      "bytes": 376249
+    },
+    {
+      "path": "wood/color.png",
+      "sha256": "cc0d726a5d9a4362356e74d4c726568b5f52361afb2bb1d45f7805a9c569bd48",
+      "bytes": 2344177
+    },
+    {
+      "path": "wood/normal.png",
+      "sha256": "79c34a9b26a9e61b3417e3a1b43a7bd2e7b01cc189fb7bbb33e875f143eb68ff",
+      "bytes": 5982303
+    },
+    {
+      "path": "wood/roughness.png",
+      "sha256": "c0dc82b2bb2b5537aaa19133305682125bf094542f04ff873168d34c21c488b6",
+      "bytes": 704692
+    }
+  ]
+}

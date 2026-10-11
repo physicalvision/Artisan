@@ -1,0 +1,1320 @@
+[
+  {
+    "package": "@babel/runtime",
+    "version": "7.29.2",
+    "licenses": [
+      {
+        "source": "npm package @babel/runtime@7.29.2/LICENSE",
+        "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+      }
+    ]
+  },
+  {
+    "package": "@floating-ui/core",
+    "version": "1.7.5",
+    "licenses": [
+      {
+        "source": "npm package @floating-ui/core@1.7.5/LICENSE",
+        "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce"
+      }
+    ]
+  },
+  {
+    "package": "@floating-ui/dom",
+    "version": "1.7.6",
+    "licenses": [
+      {
+        "source": "npm package @floating-ui/dom@1.7.6/LICENSE",
+        "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce"
+      }
+    ]
+  },
+  {
+    "package": "@floating-ui/react-dom",
+    "version": "2.1.8",
+    "licenses": [
+      {
+        "source": "npm package @floating-ui/react-dom@2.1.8/LICENSE",
+        "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce"
+      }
+    ]
+  },
+  {
+    "package": "@floating-ui/utils",
+    "version": "0.2.11",
+    "licenses": [
+      {
+        "source": "npm package @floating-ui/utils@0.2.11/LICENSE",
+        "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/number",
+    "version": "1.1.1",
+    "licenses": [
+      {
+        "source": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/primitive",
+    "version": "1.1.3",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/primitive@1.1.3/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-arrow",
+    "version": "1.1.7",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-arrow@1.1.7/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-collection",
+    "version": "1.1.7",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-collection@1.1.7/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-compose-refs",
+    "version": "1.1.2",
+    "licenses": [
+      {
+        "source": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-context",
+    "version": "1.1.2",
+    "licenses": [
+      {
+        "source": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-dialog",
+    "version": "1.1.15",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-dialog@1.1.15/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-direction",
+    "version": "1.1.1",
+    "licenses": [
+      {
+        "source": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-dismissable-layer",
+    "version": "1.1.11",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-dismissable-layer@1.1.11/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-focus-guards",
+    "version": "1.1.3",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-focus-guards@1.1.3/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-focus-scope",
+    "version": "1.1.7",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-focus-scope@1.1.7/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-id",
+    "version": "1.1.1",
+    "licenses": [
+      {
+        "source": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-label",
+    "version": "2.1.7",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-label@2.1.7/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-popover",
+    "version": "1.1.15",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-popover@1.1.15/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-popper",
+    "version": "1.2.8",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-popper@1.2.8/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-portal",
+    "version": "1.1.9",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-portal@1.1.9/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-presence",
+    "version": "1.1.5",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-presence@1.1.5/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-primitive",
+    "version": "2.1.3",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-primitive@2.1.3/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-scroll-area",
+    "version": "1.2.10",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-scroll-area@1.2.10/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-select",
+    "version": "2.2.6",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-select@2.2.6/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-slider",
+    "version": "1.3.6",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-slider@1.3.6/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-slot",
+    "version": "1.2.3",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-slot@1.2.3/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-switch",
+    "version": "1.2.6",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-switch@1.2.6/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-tooltip",
+    "version": "1.2.8",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-tooltip@1.2.8/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-use-callback-ref",
+    "version": "1.1.1",
+    "licenses": [
+      {
+        "source": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-use-controllable-state",
+    "version": "1.2.2",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-use-controllable-state@1.2.2/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-use-escape-keydown",
+    "version": "1.1.1",
+    "licenses": [
+      {
+        "source": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-use-layout-effect",
+    "version": "1.1.1",
+    "licenses": [
+      {
+        "source": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-use-previous",
+    "version": "1.1.1",
+    "licenses": [
+      {
+        "source": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-use-size",
+    "version": "1.1.1",
+    "licenses": [
+      {
+        "source": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@radix-ui/react-visually-hidden",
+    "version": "1.2.3",
+    "licenses": [
+      {
+        "source": "npm package @radix-ui/react-visually-hidden@1.2.3/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "package": "@tanstack/query-core",
+    "version": "5.96.1",
+    "licenses": [
+      {
+        "source": "npm package @tanstack/query-core@5.96.1/LICENSE",
+        "sha256": "a405ee70c632bb938acb7ac5f210e814409b3760ea9d2329d8ed8ffcfd11a0e7"
+      }
+    ]
+  },
+  {
+    "package": "@tanstack/react-query",
+    "version": "5.96.1",
+    "licenses": [
+      {
+        "source": "npm package @tanstack/react-query@5.96.1/LICENSE",
+        "sha256": "a405ee70c632bb938acb7ac5f210e814409b3760ea9d2329d8ed8ffcfd11a0e7"
+      }
+    ]
+  },
+  {
+    "package": "@ungap/structured-clone",
+    "version": "1.3.0",
+    "licenses": [
+      {
+        "source": "npm package @ungap/structured-clone@1.3.0/LICENSE",
+        "sha256": "dc6d4961d8b6ee747231582ae9c53ce1d66bf76bc9f5a28f554c0e97210953bf"
+      }
+    ]
+  },
+  {
+    "package": "aria-hidden",
+    "version": "1.2.6",
+    "licenses": [
+      {
+        "source": "npm package aria-hidden@1.2.6/LICENSE",
+        "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9"
+      }
+    ]
+  },
+  {
+    "package": "bail",
+    "version": "2.0.2",
+    "licenses": [
+      {
+        "source": "npm package bail@2.0.2/license",
+        "sha256": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf"
+      }
+    ]
+  },
+  {
+    "package": "ccount",
+    "version": "2.0.1",
+    "licenses": [
+      {
+        "source": "npm package ccount@2.0.1/license",
+        "sha256": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf"
+      }
+    ]
+  },
+  {
+    "package": "class-variance-authority",
+    "version": "0.7.1",
+    "licenses": [
+      {
+        "source": "npm package class-variance-authority@0.7.1/LICENSE",
+        "sha256": "0ccbf956cffc8dcf515809433cb5242ee67c94513d46e48c261d68d0880de406"
+      }
+    ]
+  },
+  {
+    "package": "clsx",
+    "version": "2.1.1",
+    "licenses": [
+      {
+        "source": "npm package clsx@2.1.1/license",
+        "sha256": "9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97"
+      }
+    ]
+  },
+  {
+    "package": "comma-separated-tokens",
+    "version": "2.0.3",
+    "licenses": [
+      {
+        "source": "npm package comma-separated-tokens@2.0.3/license",
+        "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+      }
+    ]
+  },
+  {
+    "package": "decode-named-character-reference",
+    "version": "1.3.0",
+    "licenses": [
+      {
+        "source": "npm package decode-named-character-reference@1.3.0/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "devlop",
+    "version": "1.1.0",
+    "licenses": [
+      {
+        "source": "npm package devlop@1.1.0/license",
+        "sha256": "6f296a5eccc1dc96714bb94ebaa9cac25b0a1467d74cc5263ac4d0646ab01f62"
+      }
+    ]
+  },
+  {
+    "package": "escape-string-regexp",
+    "version": "4.0.0",
+    "licenses": [
+      {
+        "source": "npm package escape-string-regexp@4.0.0/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ]
+  },
+  {
+    "package": "estree-util-is-identifier-name",
+    "version": "3.0.0",
+    "licenses": [
+      {
+        "source": "npm package estree-util-is-identifier-name@3.0.0/license",
+        "sha256": "536804b3adbff17dbbb9ed0d2bf9655b78f07640278581e37e3d7475282d5e61"
+      }
+    ]
+  },
+  {
+    "package": "extend",
+    "version": "3.0.2",
+    "licenses": [
+      {
+        "source": "npm package extend@3.0.2/LICENSE",
+        "sha256": "97af7428f93afbab9bf79cd09254da1357161794f4255eb1b4599f04dd2d2e7c"
+      }
+    ]
+  },
+  {
+    "package": "fault",
+    "version": "1.0.4",
+    "licenses": [
+      {
+        "source": "npm package fault@1.0.4/license",
+        "sha256": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf"
+      }
+    ]
+  },
+  {
+    "package": "format",
+    "version": "0.2.2",
+    "licenses": [
+      {
+        "source": "Installed format.js copyright notice",
+        "sha256": "b28b5d2fb2d9fe23357de0ff3ee0cc07b2d6762d761ea50960a2ee0404f2dd61"
+      },
+      {
+        "source": "Installed Readme.md license notice",
+        "sha256": "0b4817c8da3426a4b97d7a721e4fd826c516bc3c9a82eaf048ffca55ef1ec836"
+      },
+      {
+        "source": "https://sjs.mit-license.org/license.txt",
+        "sha256": "d0b02952e899c6ccce6d1cb0f8ed2d0619f8af47c6f5bf1748ecdba074723968"
+      }
+    ]
+  },
+  {
+    "package": "get-nonce",
+    "version": "1.0.1",
+    "licenses": [
+      {
+        "source": "npm package get-nonce@1.0.1/LICENSE",
+        "sha256": "acf3b087b348d2f2e731b9d4131af185aad694c1204ce14a46909483fd42da05"
+      }
+    ]
+  },
+  {
+    "package": "hast-util-to-jsx-runtime",
+    "version": "2.3.6",
+    "licenses": [
+      {
+        "source": "npm package hast-util-to-jsx-runtime@2.3.6/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "hast-util-whitespace",
+    "version": "3.0.0",
+    "licenses": [
+      {
+        "source": "npm package hast-util-whitespace@3.0.0/license",
+        "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+      }
+    ]
+  },
+  {
+    "package": "highlight.js",
+    "version": "10.7.3",
+    "licenses": [
+      {
+        "source": "npm package highlight.js@10.7.3/LICENSE",
+        "sha256": "6c081431591d9df696c82dc598fe1423765b8a299b200ed00b281afd0f64c490"
+      }
+    ]
+  },
+  {
+    "package": "html-url-attributes",
+    "version": "3.0.1",
+    "licenses": [
+      {
+        "source": "npm package html-url-attributes@3.0.1/license",
+        "sha256": "e18cf5173e928f808f0cd208097fee8fbec9d28fc0255213938e4c559e29ff58"
+      }
+    ]
+  },
+  {
+    "package": "inline-style-parser",
+    "version": "0.2.7",
+    "licenses": [
+      {
+        "source": "npm package inline-style-parser@0.2.7/LICENSE",
+        "sha256": "395c95f20598da653ff1eb1cb9d74947c7fac689697147f1d192fd0242a0e635"
+      }
+    ]
+  },
+  {
+    "package": "is-plain-obj",
+    "version": "4.1.0",
+    "licenses": [
+      {
+        "source": "npm package is-plain-obj@4.1.0/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ]
+  },
+  {
+    "package": "longest-streak",
+    "version": "3.1.0",
+    "licenses": [
+      {
+        "source": "npm package longest-streak@3.1.0/license",
+        "sha256": "9f084fac69d8cf1e6ce983ba5a3499c7695ed74a26ec625c38f0fd19fddd5e10"
+      }
+    ]
+  },
+  {
+    "package": "lowlight",
+    "version": "1.20.0",
+    "licenses": [
+      {
+        "source": "npm package lowlight@1.20.0/license",
+        "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+      }
+    ]
+  },
+  {
+    "package": "lucide-react",
+    "version": "0.577.0",
+    "licenses": [
+      {
+        "source": "npm package lucide-react@0.577.0/LICENSE",
+        "sha256": "668dcc52803480e0a026b31140a4cae668772663cd764e5991d252eef03f98db"
+      }
+    ]
+  },
+  {
+    "package": "markdown-table",
+    "version": "3.0.4",
+    "licenses": [
+      {
+        "source": "npm package markdown-table@3.0.4/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "mdast-util-find-and-replace",
+    "version": "3.0.2",
+    "licenses": [
+      {
+        "source": "npm package mdast-util-find-and-replace@3.0.2/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "mdast-util-from-markdown",
+    "version": "2.0.3",
+    "licenses": [
+      {
+        "source": "npm package mdast-util-from-markdown@2.0.3/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "mdast-util-gfm",
+    "version": "3.1.0",
+    "licenses": [
+      {
+        "source": "npm package mdast-util-gfm@3.1.0/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "mdast-util-gfm-autolink-literal",
+    "version": "2.0.1",
+    "licenses": [
+      {
+        "source": "npm package mdast-util-gfm-autolink-literal@2.0.1/license",
+        "sha256": "536804b3adbff17dbbb9ed0d2bf9655b78f07640278581e37e3d7475282d5e61"
+      }
+    ]
+  },
+  {
+    "package": "mdast-util-gfm-footnote",
+    "version": "2.1.0",
+    "licenses": [
+      {
+        "source": "npm package mdast-util-gfm-footnote@2.1.0/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "mdast-util-gfm-strikethrough",
+    "version": "2.0.0",
+    "licenses": [
+      {
+        "source": "npm package mdast-util-gfm-strikethrough@2.0.0/license",
+        "sha256": "536804b3adbff17dbbb9ed0d2bf9655b78f07640278581e37e3d7475282d5e61"
+      }
+    ]
+  },
+  {
+    "package": "mdast-util-gfm-table",
+    "version": "2.0.0",
+    "licenses": [
+      {
+        "source": "npm package mdast-util-gfm-table@2.0.0/license",
+        "sha256": "536804b3adbff17dbbb9ed0d2bf9655b78f07640278581e37e3d7475282d5e61"
+      }
+    ]
+  },
+  {
+    "package": "mdast-util-gfm-task-list-item",
+    "version": "2.0.0",
+    "licenses": [
+      {
+        "source": "npm package mdast-util-gfm-task-list-item@2.0.0/license",
+        "sha256": "536804b3adbff17dbbb9ed0d2bf9655b78f07640278581e37e3d7475282d5e61"
+      }
+    ]
+  },
+  {
+    "package": "mdast-util-phrasing",
+    "version": "4.1.0",
+    "licenses": [
+      {
+        "source": "npm package mdast-util-phrasing@4.1.0/license",
+        "sha256": "b6d1a4e1831b177acc96f22a817d4f0f4c18419355badc3125754445fc69e3a7"
+      }
+    ]
+  },
+  {
+    "package": "mdast-util-to-hast",
+    "version": "13.2.1",
+    "licenses": [
+      {
+        "source": "npm package mdast-util-to-hast@13.2.1/license",
+        "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+      }
+    ]
+  },
+  {
+    "package": "mdast-util-to-markdown",
+    "version": "2.1.2",
+    "licenses": [
+      {
+        "source": "npm package mdast-util-to-markdown@2.1.2/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "mdast-util-to-string",
+    "version": "4.0.0",
+    "licenses": [
+      {
+        "source": "npm package mdast-util-to-string@4.0.0/license",
+        "sha256": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf"
+      }
+    ]
+  },
+  {
+    "package": "micromark",
+    "version": "4.0.2",
+    "licenses": [
+      {
+        "source": "npm package micromark@4.0.2/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-core-commonmark",
+    "version": "2.0.3",
+    "licenses": [
+      {
+        "source": "npm package micromark-core-commonmark@2.0.3/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-extension-gfm",
+    "version": "3.0.0",
+    "licenses": [
+      {
+        "source": "npm package micromark-extension-gfm@3.0.0/license",
+        "sha256": "536804b3adbff17dbbb9ed0d2bf9655b78f07640278581e37e3d7475282d5e61"
+      }
+    ]
+  },
+  {
+    "package": "micromark-extension-gfm-autolink-literal",
+    "version": "2.1.0",
+    "licenses": [
+      {
+        "source": "npm package micromark-extension-gfm-autolink-literal@2.1.0/license",
+        "sha256": "536804b3adbff17dbbb9ed0d2bf9655b78f07640278581e37e3d7475282d5e61"
+      }
+    ]
+  },
+  {
+    "package": "micromark-extension-gfm-footnote",
+    "version": "2.1.0",
+    "licenses": [
+      {
+        "source": "npm package micromark-extension-gfm-footnote@2.1.0/license",
+        "sha256": "807a88522a850092aece49486207c17c313c4d5708ac276524840fe1caa0b0fa"
+      }
+    ]
+  },
+  {
+    "package": "micromark-extension-gfm-strikethrough",
+    "version": "2.1.0",
+    "licenses": [
+      {
+        "source": "npm package micromark-extension-gfm-strikethrough@2.1.0/license",
+        "sha256": "536804b3adbff17dbbb9ed0d2bf9655b78f07640278581e37e3d7475282d5e61"
+      }
+    ]
+  },
+  {
+    "package": "micromark-extension-gfm-table",
+    "version": "2.1.1",
+    "licenses": [
+      {
+        "source": "npm package micromark-extension-gfm-table@2.1.1/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-extension-gfm-task-list-item",
+    "version": "2.1.0",
+    "licenses": [
+      {
+        "source": "npm package micromark-extension-gfm-task-list-item@2.1.0/license",
+        "sha256": "536804b3adbff17dbbb9ed0d2bf9655b78f07640278581e37e3d7475282d5e61"
+      }
+    ]
+  },
+  {
+    "package": "micromark-factory-destination",
+    "version": "2.0.1",
+    "licenses": [
+      {
+        "source": "npm package micromark-factory-destination@2.0.1/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-factory-label",
+    "version": "2.0.1",
+    "licenses": [
+      {
+        "source": "npm package micromark-factory-label@2.0.1/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-factory-space",
+    "version": "2.0.1",
+    "licenses": [
+      {
+        "source": "npm package micromark-factory-space@2.0.1/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-factory-title",
+    "version": "2.0.1",
+    "licenses": [
+      {
+        "source": "npm package micromark-factory-title@2.0.1/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-factory-whitespace",
+    "version": "2.0.1",
+    "licenses": [
+      {
+        "source": "npm package micromark-factory-whitespace@2.0.1/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-util-character",
+    "version": "2.1.1",
+    "licenses": [
+      {
+        "source": "npm package micromark-util-character@2.1.1/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-util-chunked",
+    "version": "2.0.1",
+    "licenses": [
+      {
+        "source": "npm package micromark-util-chunked@2.0.1/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-util-classify-character",
+    "version": "2.0.1",
+    "licenses": [
+      {
+        "source": "npm package micromark-util-classify-character@2.0.1/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-util-combine-extensions",
+    "version": "2.0.1",
+    "licenses": [
+      {
+        "source": "npm package micromark-util-combine-extensions@2.0.1/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-util-decode-numeric-character-reference",
+    "version": "2.0.2",
+    "licenses": [
+      {
+        "source": "npm package micromark-util-decode-numeric-character-reference@2.0.2/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-util-decode-string",
+    "version": "2.0.1",
+    "licenses": [
+      {
+        "source": "npm package micromark-util-decode-string@2.0.1/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-util-html-tag-name",
+    "version": "2.0.1",
+    "licenses": [
+      {
+        "source": "npm package micromark-util-html-tag-name@2.0.1/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-util-normalize-identifier",
+    "version": "2.0.1",
+    "licenses": [
+      {
+        "source": "npm package micromark-util-normalize-identifier@2.0.1/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-util-resolve-all",
+    "version": "2.0.1",
+    "licenses": [
+      {
+        "source": "npm package micromark-util-resolve-all@2.0.1/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-util-sanitize-uri",
+    "version": "2.0.1",
+    "licenses": [
+      {
+        "source": "npm package micromark-util-sanitize-uri@2.0.1/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "micromark-util-subtokenize",
+    "version": "2.1.0",
+    "licenses": [
+      {
+        "source": "npm package micromark-util-subtokenize@2.1.0/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "property-information",
+    "version": "7.1.0",
+    "licenses": [
+      {
+        "source": "npm package property-information@7.1.0/license",
+        "sha256": "5d0698266086f217bb11ea0499d33453e401fe479fb9126ad04e625e63d3557b"
+      }
+    ]
+  },
+  {
+    "package": "react",
+    "version": "19.2.4",
+    "licenses": [
+      {
+        "source": "npm package react@19.2.4/LICENSE",
+        "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+      }
+    ]
+  },
+  {
+    "package": "react-dom",
+    "version": "19.2.4",
+    "licenses": [
+      {
+        "source": "npm package react-dom@19.2.4/LICENSE",
+        "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+      }
+    ]
+  },
+  {
+    "package": "react-markdown",
+    "version": "10.1.0",
+    "licenses": [
+      {
+        "source": "npm package react-markdown@10.1.0/license",
+        "sha256": "f6196c64e144f9a6fa9154c3a80bc8b89615a9567934b83a8951879f06ba2aef"
+      }
+    ]
+  },
+  {
+    "package": "react-remove-scroll",
+    "version": "2.7.2",
+    "licenses": [
+      {
+        "source": "npm package react-remove-scroll@2.7.2/LICENSE",
+        "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9"
+      }
+    ]
+  },
+  {
+    "package": "react-remove-scroll-bar",
+    "version": "2.3.8",
+    "licenses": [
+      {
+        "source": "https://raw.githubusercontent.com/theKashey/react-remove-scroll-bar/master/LICENSE",
+        "sha256": "a79aae0c0f21990d9d963bb3c5a79cdcea9a46f8523ba55c58d7fe776b6ebc84"
+      }
+    ]
+  },
+  {
+    "package": "react-style-singleton",
+    "version": "2.2.3",
+    "licenses": [
+      {
+        "source": "npm package react-style-singleton@2.2.3/LICENSE",
+        "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9"
+      }
+    ]
+  },
+  {
+    "package": "react-syntax-highlighter",
+    "version": "16.1.1",
+    "licenses": [
+      {
+        "source": "npm package react-syntax-highlighter@16.1.1/LICENSE",
+        "sha256": "a74e9029bdf2e92141bc711a6b17fa77b90c10eeec51193c83279cc69848f5bf"
+      }
+    ]
+  },
+  {
+    "package": "remark-gfm",
+    "version": "4.0.1",
+    "licenses": [
+      {
+        "source": "npm package remark-gfm@4.0.1/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "remark-parse",
+    "version": "11.0.0",
+    "licenses": [
+      {
+        "source": "npm package remark-parse@11.0.0/license",
+        "sha256": "413654b0a78b98661dce96d2aff2e4d075603d220b8483e28b1aa010ccc138b4"
+      }
+    ]
+  },
+  {
+    "package": "remark-rehype",
+    "version": "11.1.2",
+    "licenses": [
+      {
+        "source": "npm package remark-rehype@11.1.2/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "scheduler",
+    "version": "0.27.0",
+    "licenses": [
+      {
+        "source": "npm package scheduler@0.27.0/LICENSE",
+        "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+      }
+    ]
+  },
+  {
+    "package": "space-separated-tokens",
+    "version": "2.0.2",
+    "licenses": [
+      {
+        "source": "npm package space-separated-tokens@2.0.2/license",
+        "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+      }
+    ]
+  },
+  {
+    "package": "style-to-js",
+    "version": "1.1.21",
+    "licenses": [
+      {
+        "source": "npm package style-to-js@1.1.21/LICENSE",
+        "sha256": "bbb380e5c1a717079378d6ea4d33c8a5a81655d4612b749f882e34e46712aab5"
+      }
+    ]
+  },
+  {
+    "package": "style-to-object",
+    "version": "1.0.14",
+    "licenses": [
+      {
+        "source": "npm package style-to-object@1.0.14/LICENSE",
+        "sha256": "896c9fd6b5fc48ac31800b9d29a6e3ffcb0c2d534ed077ebfa5c2fa388cc38b7"
+      }
+    ]
+  },
+  {
+    "package": "tailwind-merge",
+    "version": "3.5.0",
+    "licenses": [
+      {
+        "source": "npm package tailwind-merge@3.5.0/LICENSE.md",
+        "sha256": "d4c70c7ce38cea8778f0aed3fc0bef0a9dbd27f13bd8b6773cbd6d37941971e5"
+      }
+    ]
+  },
+  {
+    "package": "tailwindcss",
+    "version": "4.2.1",
+    "licenses": [
+      {
+        "source": "npm package tailwindcss@4.2.1/LICENSE",
+        "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985"
+      }
+    ]
+  },
+  {
+    "package": "three",
+    "version": "0.183.2",
+    "licenses": [
+      {
+        "source": "npm package three@0.183.2/LICENSE",
+        "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+      }
+    ]
+  },
+  {
+    "package": "trim-lines",
+    "version": "3.0.1",
+    "licenses": [
+      {
+        "source": "npm package trim-lines@3.0.1/license",
+        "sha256": "9f084fac69d8cf1e6ce983ba5a3499c7695ed74a26ec625c38f0fd19fddd5e10"
+      }
+    ]
+  },
+  {
+    "package": "trough",
+    "version": "2.2.0",
+    "licenses": [
+      {
+        "source": "npm package trough@2.2.0/license",
+        "sha256": "6c03fd41cfd7c92d8aa8a2fa521b94b2683f059123281dcf921ddea9216b6254"
+      }
+    ]
+  },
+  {
+    "package": "tslib",
+    "version": "2.8.1",
+    "licenses": [
+      {
+        "source": "npm package tslib@2.8.1/LICENSE.txt",
+        "sha256": "0e8d2550baea17eb3072c4f919b36fbf9852bb49dba948549872e713863c0834"
+      }
+    ]
+  },
+  {
+    "package": "unified",
+    "version": "11.0.5",
+    "licenses": [
+      {
+        "source": "npm package unified@11.0.5/license",
+        "sha256": "05811400116ed61f1a7693b78fe8ca6598c155a12f3978e609db4df648a4cb3d"
+      }
+    ]
+  },
+  {
+    "package": "unist-util-is",
+    "version": "6.0.1",
+    "licenses": [
+      {
+        "source": "npm package unist-util-is@6.0.1/license",
+        "sha256": "82974dbf2639d13edab95c32ed9cb6c0867ede272cd2e07ce47ce8548fe55c05"
+      }
+    ]
+  },
+  {
+    "package": "unist-util-position",
+    "version": "5.0.0",
+    "licenses": [
+      {
+        "source": "npm package unist-util-position@5.0.0/license",
+        "sha256": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf"
+      }
+    ]
+  },
+  {
+    "package": "unist-util-stringify-position",
+    "version": "4.0.0",
+    "licenses": [
+      {
+        "source": "npm package unist-util-stringify-position@4.0.0/license",
+        "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+      }
+    ]
+  },
+  {
+    "package": "unist-util-visit",
+    "version": "5.1.0",
+    "licenses": [
+      {
+        "source": "npm package unist-util-visit@5.1.0/license",
+        "sha256": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf"
+      }
+    ]
+  },
+  {
+    "package": "unist-util-visit-parents",
+    "version": "6.0.2",
+    "licenses": [
+      {
+        "source": "npm package unist-util-visit-parents@6.0.2/license",
+        "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+      }
+    ]
+  },
+  {
+    "package": "use-callback-ref",
+    "version": "1.3.3",
+    "licenses": [
+      {
+        "source": "npm package use-callback-ref@1.3.3/LICENSE",
+        "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9"
+      }
+    ]
+  },
+  {
+    "package": "use-sidecar",
+    "version": "1.1.3",
+    "licenses": [
+      {
+        "source": "npm package use-sidecar@1.1.3/LICENSE",
+        "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9"
+      }
+    ]
+  },
+  {
+    "package": "vfile",
+    "version": "6.0.3",
+    "licenses": [
+      {
+        "source": "npm package vfile@6.0.3/license",
+        "sha256": "05811400116ed61f1a7693b78fe8ca6598c155a12f3978e609db4df648a4cb3d"
+      }
+    ]
+  },
+  {
+    "package": "vfile-message",
+    "version": "4.0.3",
+    "licenses": [
+      {
+        "source": "npm package vfile-message@4.0.3/license",
+        "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+      }
+    ]
+  },
+  {
+    "package": "vite",
+    "version": "7.3.1",
+    "licenses": [
+      {
+        "source": "npm package vite@7.3.1/LICENSE.md",
+        "sha256": "2ef0b8a67599690e6abccc21a3678b54457b420fb402654112d45c4e71cce364"
+      }
+    ]
+  }
+]

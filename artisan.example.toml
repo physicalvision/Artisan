@@ -1,0 +1,15 @@
+[artisan]
+workspace = "./workspace"
+# credentials_file = "./credentials.env"
+provider = "openai"
+model = "gpt-6-astra"
+thinking = "high"
+compaction_model = "gpt-5.6-sol"
+compaction_trigger_tokens = 110000
+max_cost_usd = 15.0
+# image_model = "gpt-5.5"
+image_tool_model = "gpt-image-2.5-sunburst"
+cpu_threads = 1
+render_device = "cpu"
+# Set blender only when its executable is not available on PATH.
+# blender = "/path/to/blender"
