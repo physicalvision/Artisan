@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Artisan: a multi-agent pipeline and unified benchmark for physically grounded articulated 3D assets. Design, code, review, and validate in simulation.">
+  <meta property="og:title" content="Artisan — Towards Physically Grounded Articulated 3D Assets">
+  <meta property="og:description" content="A multi-agent pipeline with physical simulation feedback, and a benchmark that measures how generated objects look, move, and function.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://physicalvision.github.io/Artisan/">
+  <link rel="canonical" href="https://physicalvision.github.io/Artisan/">
+  <meta property="og:image" content="https://physicalvision.github.io/Artisan/assets/teaser.webp">
+  <title>Artisan | Physically Grounded Articulated 3D Assets</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="style.css?v=20261007-benchmark-summary-1">
+  <link rel="stylesheet" href="teaser.css?v=20261007-object-buttons-2">
+  <link rel="stylesheet" href="hero.css?v=20261005-comparison-fit-1">
+  <link rel="stylesheet" href="comparison-picker.css?v=20261008-cases-1">
+  <link rel="preload" href="assets/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+  <script src="teaser-data.js?v=20261007-scene-physics-1" defer></script>
+  <script src="teaser.js?v=20261007-object-buttons-2" defer></script>
+  <script src="scene-player.js?v=20261006-lab-credit-1" defer></script>
+  <script src="physics-data.js?v=20261006-physics-order-1" defer></script>
+  <script src="physics-gallery.js?v=20261007-method-labels-1" defer></script>
+  <script src="benchmark-data.js?v=20261011-paper-sync-1" defer></script>
+  <script src="study-config.js?v=20261005-comparison-fit-1" defer></script>
+  <script src="comparison-cases.js?v=20261008-cases-1" defer></script>
+  <script src="comparison-picker.js?v=20261008-cases-1" defer></script>
+  <script src="script.js?v=20261011-paper-sync-1" defer></script>
+  <script src="hero.js?v=20261005-comparison-fit-1" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-nav">
+    <a class="site-mark" href="#video">Artisan</a>
+    <button class="nav-toggle" type="button" aria-controls="project-nav" aria-expanded="false">Menu</button>
+    <nav id="project-nav" aria-label="Project sections"><a href="#paper-title" data-show-paper>Paper</a><a href="#scene-explorer">Explore assets</a><a href="#interactive">Interactive demo</a><a href="#results">Physical validation</a><a href="#overview">Contributions</a><a href="#method">Method</a><a href="#benchmark">Benchmark</a><a href="#takeaways">Takeaways</a></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="video" aria-labelledby="paper-title">
+      <div class="hero-stage">
+      <video id="scene-video" class="hero-background" autoplay muted loop playsinline preload="metadata" poster="assets/scenes/office.webp" width="1280" height="720" aria-label="Generated office: 20-second highlight">
+        <source src="assets/scenes/office.mp4" type="video/mp4">
+        <a href="assets/scenes/office.mp4">Download the office video.</a>
+      </video>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-content wrap" id="hero-paper-info">
+      <h1 id="paper-title" tabindex="-1">Towards Physically Grounded Articulated 3D Assets: A <span class="keep-together">Multi-Agent</span> Pipeline and Benchmark</h1>
+      <div class="authors" aria-label="Authors">
+        <div class="author-row">
+        <span><a href="https://master-cai.github.io/" target="_blank" rel="noopener">Xudong Cai</a><sup>1#*</sup></span><span><a href="https://ruijiezhu94.github.io/ruijiezhu/" target="_blank" rel="noopener">Ruijie Zhu</a><sup>1*</sup></span><span><a href="https://www.linkedin.com/in/haoliang-shang-1544b1116" target="_blank" rel="noopener">Haoliang Shang</a><sup>1,2*</sup></span><span><a href="https://ruiningli.com/" target="_blank" rel="noopener">Ruining Li</a><sup>3*</sup></span></div>
+        <div class="author-row"><span><a href="https://people.inf.ethz.ch/pomarc/" target="_blank" rel="noopener">Marc Pollefeys</a><sup>2,4</sup></span><span><a href="https://elliottwu.com/" target="_blank" rel="noopener">Shangzhe Wu</a><sup>5</sup></span><span><a href="http://www.robots.ox.ac.uk/~vedaldi" target="_blank" rel="noopener">Andrea Vedaldi</a><sup>3</sup></span><span><a href="https://physicalvision.github.io/people/~chuanxia" target="_blank" rel="noopener">Chuanxia Zheng</a><sup>1</sup></span></div>
+      </div>
+      <p class="affiliations"><span class="affiliation-row"><span><sup>1</sup> PVG, Nanyang Technological University</span><span><sup>2</sup> ETH Zurich</span><span><sup>3</sup> VGG, University of Oxford</span></span><span class="affiliation-row"><span><sup>4</sup> Microsoft</span><span><sup>5</sup> University of Cambridge</span></span></p>
+      <p class="author-notes"># Project lead &nbsp; · &nbsp; * Core technical contribution</p>
+      <div class="resource-links">
+        <a class="button primary" href="Artisan.pdf?v=20261011" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6M9 16h6"/></svg>Paper <span aria-hidden="true">↗</span></a>
+        <a class="button" href="#scene-explorer">Explore assets</a>
+        <a class="button" href="#interactive">Interactive demo</a>
+        <a class="button" href="#benchmark">Benchmark</a>
+      </div>
+      </div>
+      <div class="hero-controls wrap">
+        <div class="hero-controls-row">
+      <div class="scene-tabs" role="group" aria-label="Choose a room video">
+        <button type="button" data-scene-video="office" aria-pressed="true" aria-controls="scene-video">Office</button>
+        <button type="button" data-scene-video="laboratory" aria-pressed="false" aria-controls="scene-video">Laboratory</button>
+        <button type="button" data-scene-video="kitchen" aria-pressed="false" aria-controls="scene-video">Kitchen</button>
+      </div>
+          <div class="hero-playback">
+            <button type="button" id="hero-play" aria-controls="scene-video">Play video</button>
+            <button type="button" id="hero-view" aria-controls="hero-paper-info" aria-expanded="true">Watch scene</button>
+          </div>
+        </div>
+        <div class="scene-caption"><p id="scene-video-caption" aria-live="polite">Office · Original photo taken in Chuanxia Zheng’s office</p><a class="hero-explore" id="explore-scene" href="#scene-explorer" aria-controls="scene-explorer">Explore this room <span aria-hidden="true">↓</span></a></div>
+      </div>
+      </div>
+    </section>
+
+    <section class="scene-showcase section wrap" id="scene-explorer" aria-labelledby="rooms-title" tabindex="-1">
+      <div class="section-heading"><h2 id="rooms-title">Explore the rooms</h2></div>
+      <noscript><p>Room videos: <a href="assets/scenes/office.mp4">Office</a> · <a href="assets/scenes/laboratory.mp4">Laboratory</a> · <a href="assets/scenes/kitchen.mp4">Kitchen</a></p></noscript>
+      <figure class="hero-figure" id="teaser">
+        <div id="teaser-content">
+          <img id="teaser-fallback" src="assets/teaser.webp" width="1602" height="696" alt="Artisan-generated articulated objects assembled into an office, a laboratory, and a kitchen, with examples of per-part materials and masses.">
+          <div id="teaser-interactive" hidden>
+            <div class="room-picker" role="group" aria-label="Choose a room">
+              <button type="button" data-teaser-room="office" aria-pressed="true" aria-controls="room-stage"><img src="assets/room-inputs/office.webp" width="720" height="540" loading="lazy" alt="Office input reference"><span>Office</span></button>
+              <button type="button" data-teaser-room="laboratory" aria-pressed="false" aria-controls="room-stage"><img src="assets/room-inputs/laboratory.webp" width="720" height="540" loading="lazy" alt="Laboratory input reference"><span>Laboratory</span></button>
+              <button type="button" data-teaser-room="kitchen" aria-pressed="false" aria-controls="room-stage"><img src="assets/room-inputs/kitchen.webp" width="720" height="613" loading="lazy" alt="Kitchen input reference"><span>Kitchen</span></button>
+            </div>
+            <div class="teaser-explorer is-focused">
+              <div class="teaser-scenes" id="room-stage" aria-label="Generated scenes with selectable objects"></div>
+              <section class="teaser-inspector" id="teaser-inspector" aria-labelledby="teaser-object-name" tabindex="-1">
+                <div class="teaser-detail-video"><p class="teaser-preview-heading"><span id="teaser-preview-number"></span><span id="teaser-preview-label"></span></p><video id="teaser-object-video" controls muted loop playsinline preload="none" width="768" height="432" aria-describedby="teaser-motion-caption"></video><p id="teaser-motion-caption"></p></div>
+                <div class="teaser-object-summary"><p class="eyebrow" id="teaser-object-context"></p><h3 id="teaser-object-name"></h3><p class="teaser-mass"><strong id="teaser-object-mass"></strong><span>kg</span></p><p class="teaser-total-label">Sum of listed part masses</p><p class="teaser-material-summary" id="teaser-material-summary"></p></div>
+                <div class="teaser-attributes"><div class="teaser-attribute-tabs" role="group" aria-label="Physical attributes"><button type="button" data-teaser-attribute="mass" aria-pressed="true">Mass &amp; materials</button><button type="button" data-teaser-attribute="joints" aria-pressed="false">Joint limits</button><button type="button" data-teaser-attribute="dynamics" aria-pressed="false">Joint dynamics</button><button type="button" data-teaser-attribute="inertia" aria-pressed="false">Inertia</button></div><div class="teaser-attribute-scroll" tabindex="0" role="region" aria-label="Physical attribute table"><table><caption>Part-level physical attributes</caption><thead></thead><tbody id="teaser-parts"></tbody></table></div><p class="teaser-data-note"></p></div>
+              </section>
+            </div>
+            <p class="sr-only" id="teaser-status" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+      </figure>
+    </section>
+
+    <section class="section wrap interactive-section" id="interactive" aria-labelledby="interactive-title">
+      <div class="section-heading"><h2 id="interactive-title">Interactive demo</h2></div>
+      <aside class="public-study-cta"><div><h3>Participate in the user study</h3><p>For a blind evaluation, rank anonymous objects before viewing the named methods below.</p></div><a class="button primary" id="public-study-link" href="https://artisan-user-study.xyz/" target="_blank" rel="noopener">Join the study ↗</a></aside>
+      <div id="comparison-case-picker" class="comparison-case-picker"></div>
+      <div class="comparison-toolbar"><p><span id="comparison-case-name" aria-live="polite">Office chair</span> · <strong>6 named methods</strong></p><a id="comparison-fullscreen" href="Supplementary%20Material/User-study-demo/comparison.html?v=20261008-cases-1" target="_blank" rel="noopener">Open full-screen comparison ↗</a></div>
+      <iframe id="method-comparison" class="method-comparison" src="Supplementary%20Material/User-study-demo/comparison.html?v=20261008-cases-1" loading="lazy" title="Six named methods: office-chair renders and interactive MuJoCo comparison" allow="fullscreen" allowfullscreen></iframe>
+    </section>
+
+    <section class="section wrap" id="results" aria-labelledby="results-title">
+      <div class="section-heading"><h2 id="results-title">Physical validation</h2></div>
+      <div class="stat-grid">
+        <article><span class="stat-value">94.6<span>%</span></span><h3>Lower single-joint collision rate</h3><p>vs. Articulate-Anything · 31.2% → 1.7%</p></article>
+        <article><span class="stat-value">14.0<span>%</span></span><h3>Higher rest-state stability</h3><p>vs. Codex · 86% → 98%</p></article>
+        <article><span class="stat-value">105.2<span>%</span></span><h3>Higher first-choice preference</h3><p>vs. Codex · 21.1% → 43.3%</p></article>
+      </div>
+      <p class="section-footnote">Relative improvements over the best non-Artisan baseline for each metric. Physics scores use Artisan (GPT-6 Astra).</p>
+
+      <section class="physics-gallery" data-physics-gallery="collision" aria-labelledby="collision-title">
+        <h3 id="collision-title">Collision</h3>
+        <div class="physics-picker" data-physics-picker role="group" aria-label="Choose an object for collision"></div>
+        <div class="physics-playback"><p data-physics-selection aria-live="polite"></p><div><button class="button" type="button" data-physics-play>Play videos</button><button class="button" type="button" data-physics-replay>Replay</button></div></div>
+
+        <div class="physics-grid" data-physics-grid></div>
+        <p class="physics-legend"><span aria-hidden="true"></span> Red boxes highlight incorrect motion detected by physical collision checks.</p>
+
+        <noscript><video controls preload="none" poster="assets/clips/collision.webp"><source src="assets/clips/collision.mp4" type="video/mp4"></video></noscript>
+      </section>
+      <section class="physics-gallery" data-physics-gallery="stability" aria-labelledby="stability-title">
+        <h3 id="stability-title">Stability</h3>
+        <div class="physics-picker" data-physics-picker role="group" aria-label="Choose an object for stability"></div>
+        <div class="physics-playback"><p data-physics-selection aria-live="polite"></p><div><button class="button" type="button" data-physics-play>Play videos</button><button class="button" type="button" data-physics-replay>Replay</button></div></div>
+
+        <div class="physics-grid" data-physics-grid></div>
+
+        <noscript><video controls preload="none" poster="assets/clips/stability.webp"><source src="assets/clips/stability.mp4" type="video/mp4"></video></noscript>
+      </section>
+      <section class="physics-gallery" data-physics-gallery="robotics" aria-labelledby="robotics-title">
+        <h3 id="robotics-title">Robot manipulation</h3>
+        <div class="physics-picker" data-physics-picker role="group" aria-label="Choose a robot task"></div>
+        <div class="physics-playback"><p data-physics-selection aria-live="polite"></p><div><button class="button" type="button" data-physics-play>Play videos</button><button class="button" type="button" data-physics-replay>Replay</button></div></div>
+        <p class="physics-context" data-physics-context></p>
+        <div class="physics-grid robot-grid" data-physics-grid></div>
+        <p class="physics-legend"><span aria-hidden="true"></span> Red border: execution failed.</p>
+        <noscript><video controls preload="none" poster="assets/clips/robotics.webp"><source src="assets/clips/robotics.mp4" type="video/mp4"></video></noscript>
+      </section>
+      <p class="physics-full-video"><a href="Supplementary%20Material/Video-demo.mp4" target="_blank" rel="noopener">Full video · 5:33 ↗</a></p>
+    </section>
+
+    <section class="overview section wrap" id="overview" aria-labelledby="overview-title">
+      <div class="section-heading"><h2 id="overview-title">Contributions</h2></div>
+      <div class="contribution-grid">
+        <article class="contribution"><h3>Multi-agent generation</h3><p>Design, Coding, and Review agents separate planning, construction, and independent assessment.</p></article>
+        <article class="contribution"><h3>Physical validation</h3><p>Simulation detects collisions and instability, then guides repairs to geometry and physical parameters.</p></article>
+        <article class="contribution"><h3>A unified benchmark</h3><p>More than 10 models evaluated on appearance, articulation, physics, robot tasks, and human preference.</p></article>
+      </div>
+      <details class="abstract"><summary>Read the abstract <span aria-hidden="true">+</span></summary><p>In this paper, we study physically grounded articulated 3D asset generation—moving the goal from reproducing how objects look to capturing how they move and function. Inspired by the literature on procedural and agentic generation, we present Artisan, a system that extends the latest method Articraft by introducing a multi-agent pipeline with physical simulation feedback, enabling comprehensive attributes beyond geometry, appearance, and physically plausible articulation, such as collision-free motion, stability under gravity, and accurate mass and material properties. Furthermore, we construct a unified benchmark spanning four key aspects: spatial fidelity, physical plausibility, downstream task performance, and overall quality. The benchmark encompasses 100 reference assets from ArtVIP and LightWheel, 50 stability prompts, and 50 ABO objects with reference masses, with protocols evaluating various metrics. Through extensive evaluation of more than 10 representative models, Artisan achieves competitive spatial fidelity while attaining the lowest collision rates and highest stability rates among the evaluated methods. Together, our system and benchmark establish insights for advancing 3D generation towards physically plausible, functionally usable assets.</p></details>
+    </section>
+
+
+
+    <section class="section wrap" id="method" aria-labelledby="method-title">
+      <div class="section-heading"><h2 id="method-title">Method</h2></div>
+      <figure class="paper-figure"><a href="overview.pdf" target="_blank" rel="noopener" aria-label="Open original pipeline diagram PDF"><img src="assets/pipeline.webp?v=20261007-overview-hidpi" width="3600" height="1573" loading="lazy" alt="Text or image input flows through Design, Coding, and Review agents. Collision and stability reports guide revisions before exporting an articulated asset with physics and action annotations."></a><figcaption>Design, generate, validate, and review. <span>Figure 2 · Click to enlarge ↗</span></figcaption></figure>
+    </section>
+
+    <section class="benchmark-section" id="benchmark" aria-labelledby="benchmark-title"><div class="wrap section">
+      <div class="section-heading"><h2 id="benchmark-title">Benchmark and results</h2><p class="benchmark-summary">4 aspects, 5 datasets, and more than 20 metrics</p></div>
+      <div class="benchmark-grid">
+        <article><h3>Spatial fidelity</h3><div class="mini-chart" data-mini-chart="spatial"><select id="mini-spatial" aria-label="Metric for spatial overview"></select><p class="mini-scale"></p><div class="mini-bars"></div></div></article>
+        <article><h3>Physical plausibility</h3><div class="mini-chart" data-mini-chart="physical"><select id="mini-physical" aria-label="Metric for physical overview"></select><p class="mini-scale"></p><div class="mini-bars"></div></div></article>
+        <article><h3>Downstream tasks</h3><div class="mini-chart" data-mini-chart="robotics"><select id="mini-robotics" aria-label="Metric for robotics overview"></select><p class="mini-scale"></p><div class="mini-bars"></div></div></article>
+        <article><h3>Overall quality</h3><div class="mini-chart" data-mini-chart="human"><select id="mini-human" aria-label="Metric for human overview"></select><p class="mini-scale"></p><div class="mini-bars"></div></div></article>
+      </div>
+      <details class="leaderboard-disclosure" id="leaderboard">
+        <summary><span><strong>Detailed metrics &amp; rankings</strong></span><span class="metrics-toggle-label"><span class="metrics-show">Show details <span aria-hidden="true">+</span></span><span class="metrics-hide">Hide details <span aria-hidden="true">−</span></span></span></summary>
+      <div class="leaderboard" aria-labelledby="leaderboard-title">
+        <div class="leaderboard-heading"><div><h3 id="leaderboard-title">Detailed results</h3></div><a id="leaderboard-source" class="text-link" href="Artisan.pdf?v=20261011#page=8" target="_blank" rel="noopener">Table 2 ↗</a></div>
+        
+        <div class="benchmark-tabs" role="group" aria-label="Evaluation dimension">
+          <button type="button" data-benchmark="physical" aria-pressed="true">Physical plausibility</button>
+          <button type="button" data-benchmark="spatial" aria-pressed="false">Spatial fidelity</button>
+          <button type="button" data-benchmark="robotics" aria-pressed="false">Downstream tasks</button>
+          <button type="button" data-benchmark="human" aria-pressed="false">Overall quality</button>
+        </div>
+        <div class="ranking-controls"><label for="metric-select">Rank by<select id="metric-select"><option value="single">Single-joint collision ↓</option></select></label><div><strong id="ranking-direction">Lower is better ↓</strong><p id="ranking-dataset">ArtVIP · collision under motion</p></div></div>
+        <div class="ranking-table-scroll" role="region" tabindex="0" aria-label="Ranked benchmark results; scroll horizontally to view related scores">
+          <table class="ranking-table"><caption id="ranking-caption">Single-joint collision · 13 evaluated configurations</caption><thead id="ranking-head"><tr><th scope="col">Rank</th><th scope="col">Method / backbone</th><th scope="col" aria-sort="ascending">Single-joint collision ↓</th><th scope="col">Double-joint collision ↓</th><th scope="col">Multi-joint collision ↓</th></tr></thead><tbody id="ranking-body"><tr class="ours-row"><td class="rank">1</td><th scope="row">Artisan<small>GPT-6 Astra</small></th><td class="selected-score">1.7%</td><td>3.7%</td><td>13.0%</td></tr>
+<tr class="ours-row"><td class="rank">2</td><th scope="row">Artisan<small>GPT-5.6 Sol</small></th><td class="selected-score">1.9%</td><td>4.8%</td><td>16.4%</td></tr>
+<tr class="ours-row"><td class="rank">3</td><th scope="row">Artisan<small>GPT-5.5</small></th><td class="selected-score">3.5%</td><td>6.4%</td><td>12.3%</td></tr>
+<tr class=""><td class="rank">4</td><th scope="row">Articulate-Anything<small></small></th><td class="selected-score">31.2%</td><td>39.2%</td><td>32.8%</td></tr>
+<tr class=""><td class="rank">5</td><th scope="row">Codex<small>GPT-6 Astra</small></th><td class="selected-score">32.4%</td><td>47.0%</td><td>63.7%</td></tr>
+<tr class="ours-row"><td class="rank">6</td><th scope="row">Artisan<small>GPT-5.5 · without physics</small></th><td class="selected-score">37.5%</td><td>47.3%</td><td>77.6%</td></tr>
+<tr class=""><td class="rank">7</td><th scope="row">Claude<small>Fable 5.1</small></th><td class="selected-score">39.9%</td><td>51.7%</td><td>64.7%</td></tr>
+<tr class=""><td class="rank">8</td><th scope="row">Articraft<small>GPT-5.5</small></th><td class="selected-score">44.5%</td><td>57.5%</td><td>79.4%</td></tr>
+<tr class=""><td class="rank">9</td><th scope="row">Articraft<small>GPT-6 Astra</small></th><td class="selected-score">45.5%</td><td>60.7%</td><td>78.8%</td></tr>
+<tr class=""><td class="rank">10</td><th scope="row">Agy<small>Gemini-Flash-3.8</small></th><td class="selected-score">46.3%</td><td>65.6%</td><td>81.5%</td></tr>
+<tr class=""><td class="rank">11</td><th scope="row">PhysX-Anything<small></small></th><td class="selected-score">58.4%</td><td>77.6%</td><td>81.3%</td></tr>
+<tr class=""><td class="rank">12</td><th scope="row">Instruct-Particulate<small></small></th><td class="selected-score">70.4%</td><td>90.4%</td><td>98.7%</td></tr>
+<tr class=""><td class="rank">13</td><th scope="row">URDF-Anything+<small></small></th><td class="selected-score">84.6%</td><td>99.3%</td><td>100.0%</td></tr>
+<tr class=""><td class="rank">—</td><th scope="row">NeRF2Physics<small></small></th><td class="selected-score">—</td><td>—</td><td>—</td></tr>
+<tr class=""><td class="rank">—</td><th scope="row">PUGS<small></small></th><td class="selected-score">—</td><td>—</td><td>—</td></tr>
+</tbody></table>
+        </div>
+        <p class="ranking-legend"><span><i class="best-key"></i> Best score</span><span><u>Second-best score</u></span><span>= Shared rank</span><span>— Not reported</span></p>
+        <p id="ranking-note" class="section-footnote">All 15 rows from Table 2, including backbone variants and the physics ablation. An em dash means the paper reports no result; that row is unranked for the selected metric.</p>
+        <p class="section-footnote">Ranks use the paper’s reported values for the selected metric; ties share a rank. Each dimension is evaluated separately. Click a column heading to rank by that metric.</p>
+        <p class="section-footnote">Overview charts: spatial and physical results use GPT-6 Astra for Artisan, Articraft, and Codex; spatial results are on ArtVIP. Downstream results compare training compositions with a π0.5 policy on held-out native assets. Human preference follows visual inspection and physical interaction.</p>
+        <p class="section-footnote">Evaluation protocols and dataset composition: <a href="Artisan.pdf?v=20261011#page=6" target="_blank" rel="noopener">Sections 4.1–4.2 and Appendix B ↗</a></p>
+        <p id="ranking-announcement" class="sr-only" aria-live="polite"></p>
+      </div>
+      </details>
+
+    </div></section>
+
+    <section class="experiment-takeaways" id="takeaways" aria-labelledby="takeaways-title">
+      <div class="wrap section">
+        <div class="section-heading"><h2 id="takeaways-title">Takeaways</h2></div>
+        <div class="takeaway-grid">
+          <article>
+            <h3>Agentic generation methods can rival or even surpass state-of-the-art task-specific methods.</h3>
+          </article>
+          <article>
+            <h3>Physical validation is the key to generating a ready-to-use asset.</h3>
+          </article>
+          <article>
+            <h3>Multi-agent design and independent review help eliminate the self-evaluation bias.</h3>
+          </article>
+          <article>
+            <h3>Adding generated assets to native robot training data improves generalization to unseen objects.</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="citation-section"><div class="wrap section"><div class="section-heading"><h2>Citation</h2></div><div class="citation-heading"><button class="button" id="copy-citation" type="button">Copy BibTeX <span aria-hidden="true">⧉</span></button></div><pre><code id="bibtex">@misc{cai2026artisan,
+  title  = {Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark},
+  author = {Cai, Xudong and Zhu, Ruijie and Shang, Haoliang and Li, Ruining and Pollefeys, Marc and Wu, Shangzhe and Vedaldi, Andrea and Zheng, Chuanxia},
+  year   = {2026},
+  note   = {Preprint}
+}</code></pre><p id="copy-status" class="sr-only" aria-live="polite"></p></div></section>
+  </main>
+  <footer class="wrap"><div><p>Artisan</p><p class="footer-credit">We thank the <a href="https://articraft3d.github.io/" target="_blank" rel="noopener">Articraft</a> authors for sharing their project page template.</p></div><a href="#main">Back to top ↑</a></footer>
+</body>
+</html>
