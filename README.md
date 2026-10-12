@@ -16,8 +16,7 @@
 </p>
 
 <p align="center">
-  <!-- Replace xxxxx with the arXiv identifier and add the paper link when available. -->
-  <img src="https://img.shields.io/badge/arXiv-xxxxx-b31b1b" alt="arXiv: xxxxx"> &nbsp;&nbsp;&nbsp;
+  <a href="https://arxiv.org/abs/2610.13947"><img src="https://img.shields.io/badge/arXiv-2610.13947-b31b1b" alt="arXiv: 2610.13947"></a> &nbsp;&nbsp;&nbsp;
   <a href="https://physicalvision.github.io/artisan"><img src="https://img.shields.io/badge/Project-Page-orange" alt="Project Page"></a> &nbsp;&nbsp;&nbsp;
   <a href="https://huggingface.co/datasets/mastercai/Artisan-Benchmark"><img src="https://img.shields.io/badge/HuggingFace-Dataset-yellow" alt="Hugging Face Dataset"></a> &nbsp;&nbsp;&nbsp;
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-green" alt="Apache 2.0 License"></a> &nbsp;&nbsp;&nbsp;
@@ -148,7 +147,10 @@ If you find our work useful, please cite:
   title  = {Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark},
   author = {Cai, Xudong and Zhu, Ruijie and Shang, Haoliang and Li, Ruining and
             Pollefeys, Marc and Wu, Shangzhe and Vedaldi, Andrea and Zheng, Chuanxia},
-  year   = {2026}
+  year   = {2026},
+  eprint = {2610.13947},
+  archivePrefix = {arXiv},
+  url    = {https://arxiv.org/abs/2610.13947}
 }
 ```
 
